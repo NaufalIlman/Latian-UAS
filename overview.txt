@@ -1,0 +1,7 @@
+1. Buat HTML unutk menampilkan halaman
+2. (Opsional) CSS diapakai untuk mempercantk web
+3. Javascript
+2. a. Guna Javascript? menampilkan tabel secara asinkron
+2. b. Cara Kerja
+Javasript mengambil konten dari link, lalu mengedit html supaya menampilkan tabel
+2. c. Implementasi

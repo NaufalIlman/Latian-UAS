@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href="style.css">
+        <title>Table display</title>
+    </head>
+    <body>
+        <header>
+            <h1>Table Taker</h1>
+            <style>
+                h1{color: aqua;}
+            </style>
+        </header>
+        <article>
+            <section>
+                <div>
+                    <p>Masukkan URL anda</p>
+                    <input type="text" id="url" placeholder="masukkan URL" value="https://testingalpro.alwaysdata.net/api/getcoffee.php">
+                    <br>
+                    <button id="fetchButton" onclick="fetchData()">Ambil Data</button>
+                    <script src="script.js"></script>
+                    <div id="table-container">
+                        <table id="data-table"></table>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p>Latihan UAS Algoritma Pemrograman II Muhammad Naufal Ilman-162012133067</p>
+            </footer>
+        </article>
+    </body>
+</html>
